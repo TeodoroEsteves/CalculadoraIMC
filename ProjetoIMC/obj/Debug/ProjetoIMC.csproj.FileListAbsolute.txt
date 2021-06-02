@@ -8,3 +8,13 @@ C:\Users\Pichau\source\repos\ProjetoIMC\ProjetoIMC\obj\Debug\ProjetoIMC.csproj.G
 C:\Users\Pichau\source\repos\ProjetoIMC\ProjetoIMC\obj\Debug\ProjetoIMC.csproj.CoreCompileInputs.cache
 C:\Users\Pichau\source\repos\ProjetoIMC\ProjetoIMC\obj\Debug\ProjetoIMC.exe
 C:\Users\Pichau\source\repos\ProjetoIMC\ProjetoIMC\obj\Debug\ProjetoIMC.pdb
+C:\Users\Pichau\Source\Repos\CalculadoraIMC\ProjetoIMC\bin\Debug\ProjetoIMC.exe.config
+C:\Users\Pichau\Source\Repos\CalculadoraIMC\ProjetoIMC\bin\Debug\ProjetoIMC.exe
+C:\Users\Pichau\Source\Repos\CalculadoraIMC\ProjetoIMC\bin\Debug\ProjetoIMC.pdb
+C:\Users\Pichau\Source\Repos\CalculadoraIMC\ProjetoIMC\obj\Debug\ProjetoIMC.csprojAssemblyReference.cache
+C:\Users\Pichau\Source\Repos\CalculadoraIMC\ProjetoIMC\obj\Debug\ProjetoIMC.IMC.resources
+C:\Users\Pichau\Source\Repos\CalculadoraIMC\ProjetoIMC\obj\Debug\ProjetoIMC.Properties.Resources.resources
+C:\Users\Pichau\Source\Repos\CalculadoraIMC\ProjetoIMC\obj\Debug\ProjetoIMC.csproj.GenerateResource.cache
+C:\Users\Pichau\Source\Repos\CalculadoraIMC\ProjetoIMC\obj\Debug\ProjetoIMC.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Source\Repos\CalculadoraIMC\ProjetoIMC\obj\Debug\ProjetoIMC.exe
+C:\Users\Pichau\Source\Repos\CalculadoraIMC\ProjetoIMC\obj\Debug\ProjetoIMC.pdb

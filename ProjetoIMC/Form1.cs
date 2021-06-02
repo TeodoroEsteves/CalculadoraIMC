@@ -31,38 +31,38 @@ namespace ProjetoIMC
 
                 txtResultado.Text = resultado.ToString("F");
                 txtResultado.Visible = true;
+
+                if (resultado < 18.5)
+                {
+                    MessageBox.Show("Classificação: Magreza", "Resultado IMC", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else if (resultado > 18.4 && resultado < 25.0)
+                {
+                    MessageBox.Show("Classificação: Normal", "Resultado IMC", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else if (resultado > 24.9 && resultado < 30.0)
+                {
+                    MessageBox.Show("Classificação: Sobrepeso", "Resultado IMC", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else if (resultado > 29.9 && resultado < 40.0)
+                {
+                    MessageBox.Show("Classificação: Obesidade", "Resultado IMC", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else if (resultado > 40.0)
+                {
+                    MessageBox.Show("Classificação: Obesidade Grave", "Resultado IMC", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show($"Erro:\n{ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            
-            if (resultado < 18.5)
-            {
-                MessageBox.Show("Classificação: Magreza", "Resultado IMC", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-            else if (resultado > 18.4 && resultado < 25.0)
-            {
-                MessageBox.Show("Classificação: Normal", "Resultado IMC", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else if (resultado > 24.9 && resultado <30.0)
-            {
-                MessageBox.Show("Classificação: Sobrepeso", "Resultado IMC", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-            else if (resultado >29.9 && resultado < 40.0)
-            {
-                MessageBox.Show("Classificação: Obesidade", "Resultado IMC", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-            else if (resultado > 40.0)
-            {
-                MessageBox.Show("Classificação: Obesidade Grave", "Resultado IMC", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
         }
 
         private void btnLimpar_Click(object sender, EventArgs e)
         {
-            txtPeso.Text = ""; 
+            txtPeso.Text = "";
             txtAltura.Text = "";
         }
 
