@@ -31,6 +31,7 @@ namespace ProjetoIMC
 
                 txtResultado.Text = resultado.ToString("F");
                 txtResultado.Visible = true;
+                lblIMC.Visible = true;
 
                 if (resultado < 18.5)
                 {
@@ -64,6 +65,8 @@ namespace ProjetoIMC
         {
             txtPeso.Text = "";
             txtAltura.Text = "";
+            lblIMC.Visible = false;
+            txtResultado.Visible = false;
         }
 
     }
