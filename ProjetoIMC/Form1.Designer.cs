@@ -38,7 +38,7 @@ namespace ProjetoIMC
             this.btnCalcular = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.txtResultado = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblIMC = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -131,15 +131,16 @@ namespace ProjetoIMC
             this.txtResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtResultado.Visible = false;
             // 
-            // label1
+            // lblIMC
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(156, 412);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 16);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "IMC:";
+            this.lblIMC.AutoSize = true;
+            this.lblIMC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIMC.Location = new System.Drawing.Point(156, 412);
+            this.lblIMC.Name = "lblIMC";
+            this.lblIMC.Size = new System.Drawing.Size(38, 16);
+            this.lblIMC.TabIndex = 10;
+            this.lblIMC.Text = "IMC:";
+            this.lblIMC.Visible = false;
             // 
             // IMC
             // 
@@ -147,7 +148,7 @@ namespace ProjetoIMC
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.ClientSize = new System.Drawing.Size(350, 502);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblIMC);
             this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnCalcular);
@@ -176,7 +177,7 @@ namespace ProjetoIMC
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.TextBox txtResultado;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblIMC;
     }
 }
 
