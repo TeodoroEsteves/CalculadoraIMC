@@ -19,17 +19,24 @@ namespace ProjetoIMC
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            double peso, altura;
-            peso = Convert.ToDouble(txtPeso.Text);
-            altura = Convert.ToDouble(txtAltura.Text);
+            double peso = 0, altura = 0, resultado = 0;
+            try
+            {
+                peso = Convert.ToDouble(txtPeso.Text);
+                altura = Convert.ToDouble(txtAltura.Text);
 
-            altura = altura * altura; // Altura ao quadrado
+                altura = altura * altura; // Altura ao quadrado
 
-            double resultado = peso / altura;
+                resultado = peso / altura;
 
-            txtResultado.Text = resultado.ToString("F");
-            txtResultado.Visible = true;
-
+                txtResultado.Text = resultado.ToString("F");
+                txtResultado.Visible = true;
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show($"Erro:\n{ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
             if (resultado < 18.5)
             {
                 MessageBox.Show("Classificação: Magreza", "Resultado IMC", MessageBoxButtons.OK, MessageBoxIcon.Warning);
